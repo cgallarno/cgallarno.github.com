@@ -14,5 +14,5 @@ gulp.task('img', function() {
 gulp.task('watch', function() {
   livereload.listen();
   gulp.watch('*.html', ['html']);
-  gulp.watch('img/**', ['img']);
+  //gulp.watch('img/**', ['img']);
 });
