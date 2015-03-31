@@ -210,7 +210,7 @@ div[id*="section-"] {
 	margin-bottom: 0.88em;
 }
 .block-grid .block-logo {
-	background-color: #FFF;
+	background-color: #f7f7f7;
 	border-radius: 10px;
 	display: table-cell;
 	height: 10em;
@@ -219,6 +219,11 @@ div[id*="section-"] {
 	vertical-align: middle;
 	width: 50%;
 }
+
+.section-odd .block-grid .block-logo{
+	background: #fff;
+}
+
 .block-logo:hover {
 	background-color: #FFF;
 	cursor: pointer;
